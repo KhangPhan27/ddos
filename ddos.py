@@ -8,7 +8,7 @@ os.system("clear")
 url=input('URL:')
 thread=int(input('Thread:'))
 os.system("clear")
-print('Đang tấn công! Truy cập vào: https://check-host.net/check-http?host='+url)
+print('Đang tấn công! Truy cập vào: ')
 print('https://check-host.net/check-http?host='+url)
 print('để kiểm tra trạng thái web.')
 def request_10000_async():

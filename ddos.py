@@ -22,8 +22,8 @@ def request_10000_async():
         client.post(url.format(secret_number), timeout=10000)
         client.head(url.format(secret_number), timeout=10000)
         requests.get(url.format(secret_number), timeout=10000)
-        req=requests.post(url).status_code
-        
+        dem=dem+1
+        print('requets đã gửi:',dem)
     
      
 

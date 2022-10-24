@@ -6,6 +6,8 @@ import undetected_chromedriver as webdriver
 from sys import stdout
 from colorama import Fore, init
 os.system("clear")
+stdout.write(Fore.CYAN+"Tool được phát triển bởi Khang Phan\n")
+stdout.write(Fore.RED+":))) TOOL NÀY DDOS WEB YẾU THÔI NHA MẤY ÔNG CHÁU\n")
 
 def tcp():
 	useragents=["Mozilla/5.0 (Android; Linux armv7l; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 Fennec/10.0.1","Mozilla/5.0 (Android; Linux armv7l; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Fennec/2.0.1","Mozilla/5.0 (WindowsCE 6.0; rv:2.0.1) Gecko/20100101 Firefox/4.0.1",
@@ -179,9 +181,9 @@ if in4orlayer=='1':
         stdout.write(Fore.CYAN+"[2] • Layer4\n") 
         stdout.write(Fore.RED+"->")
         ly2=input()
-    if ly=='2':
+    if ly2=='2':
         l4()
-    elif ly=='1':
+    elif ly2=='1':
         l7()
 		
 	

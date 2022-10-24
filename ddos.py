@@ -18,22 +18,16 @@ def request_10000_async():
  
     	
     def request(secret_number):
-        client.get(url.format(secret_number), timeout=10000)
-        client.post(url.format(secret_number), timeout=10000)
-        client.head(url.format(secret_number), timeout=10000)
-        requests.get(url.format(secret_number), timeout=10000)
-        dem=dem+1
-        print('requets đã gửi:',dem)
-    
-     
-
-
+        print('Method:Get | Status code:', client.get(url.format(secret_number), timeout=1000).status_code,'| Luồng:', threading.active_count())
+        
+        
     tasks = []
     for secret in range(thread):
         # Tạo thread và khởi động chúng
         task = threading.Thread(target=request, args=(secret,))       
         task.start()
         tasks.append(task)
+       
         
     
     # Đợi tất cả thread thực thi xong

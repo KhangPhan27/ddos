@@ -14,7 +14,7 @@ stdout.write(Fore.RED+":))) TOOL NÀY DDOS WEB YẾU THÔI NHA MẤY ÔNG CHÁU\
 def l7():
     stdout.write(Fore.RED+" [\x1b[38;2;0;255;189mLAYER 7"+Fore.RED+"]\n")
     stdout.write(Fore.MAGENTA+"[1] • "+Fore.WHITE+"CFB        "+Fore.RED+": "+Fore.WHITE+"Bypass CF attack\n")
-    stdout.write(Fore.MAGENTA+"[2] • "+Fore.WHITE+"GET        "+Fore.RED+": "+Fore.WHITE+"Head Request attack\n")
+    stdout.write(Fore.MAGENTA+"[2] • "+Fore.WHITE+"GET        "+Fore.RED+": "+Fore.WHITE+"Get Request attack\n")
     stdout.write(Fore.MAGENTA+"[3] • "+Fore.WHITE+"POST       "+Fore.RED+": "+Fore.WHITE+"Post Request attack\n")
     stdout.write(Fore.MAGENTA+"[4] • "+Fore.WHITE+"HEAD       "+Fore.RED+": "+Fore.WHITE+"Head Request attack\n")
     cm=input('Chọn Method:')

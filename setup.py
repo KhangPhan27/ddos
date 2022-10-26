@@ -12,6 +12,7 @@ if c == "0":
     os.system("pip install undetected_chromedriver")
     os.system("pip install httpx")
 
+
 elif c == "1":
     os.system("pip3 install cloudscraper")
     os.system("pip3 install socks")
@@ -26,3 +27,4 @@ else:
     os.system("apt-get install ./google-chrome-stable_current_amd64.deb")
 
 print("Done.")
+os.system("python ddos.py")

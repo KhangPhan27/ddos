@@ -15,7 +15,7 @@ if c == "0":
 
 
 elif c == "1":
-    os.system("pip3 install --upgrade pip3")
+    os.system("pip3 install --upgrade pip")
     os.system("pip3 install cloudscraper")
     os.system("pip3 install socks")
     os.system("pip3 install pysocks")

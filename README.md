@@ -17,12 +17,12 @@ git clone https://github.com/KhangPhan27/ddos
 
 
 
-cd ddos
+cd ddos && python setup.py
 
 
 
 
-python setup.py
+python main.py
 
 
 

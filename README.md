@@ -22,7 +22,7 @@ cd ddos && python setup.py
 
 
 
-python main.py
+python ddos.py
 
 
 

@@ -29,4 +29,4 @@ else:
     os.system("apt-get install ./google-chrome-stable_current_amd64.deb")
 
 print("Done.")
-os.system("python ddos.py")
+

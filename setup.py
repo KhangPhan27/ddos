@@ -11,7 +11,7 @@ if c == "0":
     os.system("pip install pysocks")
     os.system("pip install colorama")
     os.system("pip install undetected_chromedriver")
-    os.system(pkg install nodejs)
+    os.system('pkg install nodejs')
 
 
 elif c == "1":
